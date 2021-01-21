@@ -1,4 +1,5 @@
 const router = require("express").Router()
+const { Router } = require("express")
 const db = require("../models")
 
 
@@ -14,16 +15,10 @@ router.get("/api/workouts", (req,res)=>{
 })
 
 //Updating existing workout in the DB
-router.put("/api/workouts/:id", ({body,params},res) =>{
-  db.Workout.findByIdAnUpdate(params.id, { $push:
-    {
-      exercises:body
-    }
-  }, 
-  {
-    new: true,
-   runValidators: true
-  })
+router.put("/api/workouts/:id",({body,params},res)=>{
+  db.Workout.findByIdAndUpdate(params.id,{$push:{exercises:body}},
+    {new:true}
+    )
     .then((result)=>{
       res.json(result)
     })
