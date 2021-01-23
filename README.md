@@ -49,14 +49,18 @@ Please "click" on this link to go to the heroku version of this app:
 ## License
 I have used the MIT license for this application see repository documentation.
 
-<https://github.com/Rodolfod1/Team-Profile-Generator/blob/main/LICENSE>
+<https://opensource.org/licenses/MIT>
 
 ## Testing
 This can be manually tested or using any test tool
 
-## Link To Video demonstrating the app:
-  
-<https://drive.google.com/file/d/1mBKt3mk6CdMmA2iAMkyDxeKZQoulfskx/view>
+## Code Screenshots:
+- Mongoose schema and calculation for total duration 
+![Mongoose](public/Assets/Img/MongooseSchema.png)<br>
+- Api and HTML routes:
+![APIroute](public/Assets/Img/ApiRoutes.png)
+![HtmlRoute](public/Assets/Img/htmlRoutes.png)  
+
 
 ## In case of questions:
 Please contact me at my e-mail: 
