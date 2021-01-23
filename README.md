@@ -57,7 +57,7 @@ This can be manually tested or using any test tool
 ## Code Screenshots:
 - Mongoose schema and calculation for total duration 
 ![Mongoose](public/Assets/Img/MongooseSchema.png)<br>
-- Api and HTML routes:
+- Api and HTML routes:<br>
 ![APIroute](public/Assets/Img/ApiRoutes.png)
 ![HtmlRoute](public/Assets/Img/htmlRoutes.png)  
 
